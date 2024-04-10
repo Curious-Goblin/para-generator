@@ -1,8 +1,27 @@
-# React + Vite
+# Para Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Para Generator is a React application that generates paragraphs based on different combinations of words provided as input. Users can input a set of words or phrases, and the application will generate paragraphs using various combinations of these words.
 
-Currently, two official plugins are available:
+## Features
+- Dynamic generation of paragraphs based on input words.
+- Customization options for controlling paragraph length and structure.
+- Responsive design for seamless usage across devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup and Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+   The application will be available at `http://localhost:5173`.
